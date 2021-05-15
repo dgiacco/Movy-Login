@@ -1,0 +1,116 @@
+body {
+    background: url("./Bitmap.jpg") no-repeat center;
+    background-size: 100% 100%;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
+      "Helvetica", "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .login-block {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.8122);
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+
+  .login-block h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 3
+    0px;
+    font-weight: 200;
+  }
+
+  .login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 0 0 0 20px;
+    outline: none;
+  }
+
+  .login-block input#username {
+    background: #fff;
+    border: none;
+  }
+
+  .login-block input#password {
+    background: #fff;
+    border: none;
+  }
+
+  .login-block button {
+    width: 100%;
+    height: 40px;
+    background: #0578ff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .login-block button:hover {
+    background: 1px solid #7dbaff;
+  }
+
+  input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    width: auto;
+    height: auto;
+  }
+  .login-block label {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .chechbox-line {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 14px;
+  }
+  .help {
+      display: flex;
+      justify-content: flex-end;
+      color: #fff;
+      text-decoration: none;
+  }
+  .facebook-login {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      margin-top: 18px;
+      font-size: 14px;
+  }
+  .facebook-text {
+      margin-left: 8px;
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 18px;
+    color: #fff;
+    font-size: 14px;
+  }
