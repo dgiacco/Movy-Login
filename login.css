@@ -1,6 +1,6 @@
 body {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-  "Arial", sans-serif;
+    "Arial", sans-serif;
   margin: 0;
 }
 .container {
@@ -65,10 +65,6 @@ body {
   cursor: pointer;
   border: none;
   margin-bottom: 10px;
-}
-
-.login-block button:hover {
-  background: 1px solid #7dbaff;
 }
 
 input[type="checkbox"] {
@@ -160,4 +156,40 @@ ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+}
+header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 20px;
+}
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Exo";
+  font-size: 30px;
+  font-weight: 600;
+  float: left;
+  margin-left: 120px;
+}
+.register {
+  text-decoration: none;
+  color: #fff;
+}
+.header-right {
+  float: right;
+  margin-right: 120px;
+}
+.header-right button {
+  width: 115px;
+  height: 34px;
+  background: #0578ff;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
 }
